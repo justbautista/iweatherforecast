@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <meta name="HandheldFriendly" content="true">
+    <link rel="shortcut icon" href="img/weather02-512.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <h1>Weather</h1>
+            <input class="search-box" type="text" autocomplete="off" placeholder="Search for a city...">
+        </header>
+        <div class="current-container">
+            <div class="current-left">
+                <div class="location">State, Country</div>
+                <div class="date">Date</div>
+                <div class="temperature">Current Temperature</div>
+                <div class="description">Description</div>
+                <div class="c-f"><span class="f">°F</span> / <span class="c">°C</span></div>
+            </div>
+            <div class="current-right">
+                <img class="current-img" src="">
+                <div class="lo-hi">Low / High</div>
+            </div>
+        </div>
+        <div class="daily-container">
+            <h2>Daily   |   7-day</h2>
+            <div class="daily-box-container"></div>
+        </div>
+        <div class="hourly-container">
+            <h2>Hourly   |   48-hour</h2>
+            <div class="hourly-box-container"></div>
+        </div>
+    </div>    
+</body>
+</html>
