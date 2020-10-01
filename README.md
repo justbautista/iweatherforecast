@@ -1,1 +1,2 @@
-# weather
+# iWeather Forecast
+Have you ever needed to know how the weather is or will be? Of course you do! This web app provides the current, 7-day, and 48-hour forecasts using the OpenWeatherMap API. Use the search bar to search for the forecast of any city in the world or use your location to see the forecasts of your area. Do you like to see your temperature in Celsius or Fahrenheit? Good thing for you, you don't have to choose! Just click on the symbol of your favorite unit.
